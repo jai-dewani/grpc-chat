@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup> 
-    <Protobuf Include=".\protos\chat_app.proto" Link="protos\chat_app.proto" />
+    <Protobuf Include=".\..\protos\chat_app.proto" Link="protos\chat_app.proto" />
   </ItemGroup>
 
 </Project>
