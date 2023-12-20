@@ -33,6 +33,12 @@ Haven't tested it with earlier versions of dotnet, would be a great help if some
 
 - Install all the pip packages required for `ChatAppClientPython` by running `pip install -r requirements.txt` 
 
+### Creating Stub and Server from Proto
+```
+protoc --python_out=$DST_DIR ./Proto/chat.proto
+protoc --csharp_out=$DST_DIR ./Proto/chat.proto
+```
+
 ### Starting up server and client
 
 - First lets start the server, run the following commands to start the server  
